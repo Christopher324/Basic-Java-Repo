@@ -16,7 +16,9 @@ public class JavaCollectionAssignment {
 		doctorSet.add("John D");
 		doctorSet.add("Emergency medicine");
 		System.out.println("Doctor ID, Name, Specialty" + doctorSet);
+		
+		LinkedHashSet.stream().sorted((String s1,String s2)->{       
+    return s1.compareTo(s2);
+		}
 
-	}
 
-}

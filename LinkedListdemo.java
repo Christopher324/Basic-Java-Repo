@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class LinkedListdemo {
 
 	public static void main(String[] args) {
-		LinkedList<String> countries = new LinkedList<String>();
+		LinkedList<String> countries = new LinkedList<>();
 		countries.add("India");
 		countries.add("China");
 		countries.add("Russia");

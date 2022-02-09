@@ -6,6 +6,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class JDBCjava8Assignment {
+	static final String DB_URL = "jdbc:mysql://localhost";
+	static final String USER = "christopher";
+	static final String PASS = "jdbcdemo123";
+}
 
 	public static void main(String[] args) {
 		// Open a connection
